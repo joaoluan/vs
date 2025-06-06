@@ -61,6 +61,9 @@ http://localhost:3000
 
 ```
 
+## Link da aplicação web
+https://vs.joaomoura.dev.br/
+
 ## Endpoints da API
 
 | Método | Rota                 | Descrição                          |
