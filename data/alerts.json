@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1749244922365,
+    "cameraId": "CAM-002",
+    "mensagem": "Câmera ativada por sensor de movimento",
+    "horario": "2025-06-06T21:22:02.353Z",
+    "recebidoEm": "2025-06-06T21:22:02.365Z",
+    "timestamp": 1749244922365
+  },
+  {
+    "id": 1749244933415,
+    "cameraId": "CAM-003",
+    "mensagem": "Movimento detectado no jardim",
+    "horario": "2025-06-06T21:22:13.407Z",
+    "recebidoEm": "2025-06-06T21:22:13.415Z",
+    "timestamp": 1749244933415
+  },
+  {
+    "id": 1749245474192,
+    "cameraId": "CAM-001",
+    "mensagem": "Movimento detectado no jardim",
+    "horario": "2025-06-06T21:31:14.190Z",
+    "recebidoEm": "2025-06-06T21:31:14.192Z",
+    "timestamp": 1749245474192
+  },
+  {
+    "id": 1749245476589,
+    "cameraId": "CAM-002",
+    "mensagem": "Pessoa não identificada detectada",
+    "horario": "2025-06-06T21:31:16.575Z",
+    "recebidoEm": "2025-06-06T21:31:16.589Z",
+    "timestamp": 1749245476589
+  },
+  {
+    "id": 1749247550464,
+    "cameraId": "CAM-001",
+    "mensagem": "Movimento detectado no jardim",
+    "horario": "2025-06-06T22:05:50.450Z",
+    "recebidoEm": "2025-06-06T22:05:50.464Z",
+    "timestamp": 1749247550464
+  },
+  {
+    "id": 1749248278568,
+    "cameraId": "CAM-001",
+    "mensagem": "Atividade suspeita registrada",
+    "horario": "2025-06-06T22:17:58.566Z",
+    "recebidoEm": "2025-06-06T22:17:58.568Z",
+    "timestamp": 1749248278568
+  },
+  {
+    "id": 1749248281514,
+    "cameraId": "CAM-001",
+    "mensagem": "Atividade suspeita registrada",
+    "horario": "2025-06-06T22:18:01.503Z",
+    "recebidoEm": "2025-06-06T22:18:01.514Z",
+    "timestamp": 1749248281514
+  },
+  {
+    "id": 1749248298251,
+    "cameraId": "CAM-001",
+    "mensagem": "Câmera ativada por sensor de movimento",
+    "horario": "2025-06-06T22:18:18.240Z",
+    "recebidoEm": "2025-06-06T22:18:18.251Z",
+    "timestamp": 1749248298251
+  },
+  {
+    "id": 1749248438468,
+    "cameraId": "CAM-002",
+    "mensagem": "Movimento detectado no jardim",
+    "horario": "2025-06-06T22:20:38.456Z",
+    "recebidoEm": "2025-06-06T22:20:38.468Z",
+    "timestamp": 1749248438468
+  }
+]

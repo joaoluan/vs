@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1749224302250,
+    "name": "joao",
+    "email": "joao.luan@hotmail.com",
+    "phone": "(51) 98571-1759",
+    "password": "123456"
+  },
+  {
+    "id": 1749233725050,
+    "name": "teste",
+    "email": "joao@hot.com",
+    "phone": "(51) 99999-9999",
+    "password": "123456"
+  }
+]

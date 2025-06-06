@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vigilância Solidária - Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css" />
+ </head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">🛡️</div>
+        <h1>Vigilância Solidária</h1>
+      </div>
+      <div class="header-info">
+        <button class="notification-bell" onclick="showNotifications()">
+          🔔
+          <span class="notification-count" id="alertCount">0</span>
+        </button>
+        <span id="cameraCount">0 câmeras conectadas</span>
+        <button id="logoutBtn" class="btn btn-logout">Sair</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Estatísticas principais -->
+    <section class="stats-grid">
+      <article class="stat-card">
+        <div class="stat-card-header">
+          <div class="stat-icon cameras">📹</div>
+          <div class="stat-info">
+            <h3>Câmeras Ativas</h3>
+            <p id="activeCameras">0</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <div class="stat-card-header">
+          <div class="stat-icon neighbors">👥</div>
+          <div class="stat-info">
+            <h3>Vizinhos Conectados</h3>
+            <p id="neighborCount">0</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <div class="stat-card-header">
+          <div class="stat-icon alerts">⚠️</div>
+          <div class="stat-info">
+            <h3>Alertas Hoje</h3>
+            <p id="todayAlerts">0</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Card de alertas -->
+    <section class="card">
+      <div class="card-header">
+        <h3>🚨 Alertas Recentes</h3>
+        <div>
+          <button id="simulateAlertBtn" class="btn btn-primary">
+            🔴 Simular Alerta
+          </button>
+          <button id="simulateCameraBtn" class="btn btn-primary" style="margin-left: 0.5rem;">
+            📹 Simular Câmera Ativa
+          </button>
+        </div>
+      </div>
+
+      <div id="recentAlerts">
+        <p style="text-align: center; color: #666;">Carregando alertas...</p>
+      </div>
+    </section>
+
+    <!-- Lista de câmeras conectadas -->
+    <section class="card">
+      <h3>📹 Câmeras Conectadas</h3>
+      <div id="cameraList">
+        <p style="text-align: center; color: #666;">Nenhuma câmera conectada ainda</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vigilância Solidária</p>
+  </footer>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
